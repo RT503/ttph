@@ -1,0 +1,1 @@
+export const CONST_FOOTER_DATA = { name: 'Парк Game Keeper', address: 'г. Москва, ул. Большая Почтовая, д. 18/20, с. 6', phone: '+7 (499) 123-45-67', email: 'https://game-keeper.com/', workingHours: 'Пн-пт 10-22, сб-вс 9-23' };

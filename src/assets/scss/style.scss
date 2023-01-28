@@ -1,0 +1,119 @@
+html {
+  height: -webkit-fill-available;
+}
+
+body {
+  -webkit-tap-highlight-color: transparent;
+  min-height: -webkit-fill-available;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+  margin: auto;
+}
+
+.ticket-preview-body {
+  background: #67697E;
+}
+
+.content-container {
+  min-height: 100vh;
+  margin: auto;
+  flex: 1 0 auto;
+  overflow: hidden;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.max-width-360 {
+  max-width: 360px;
+}
+
+.ticket-background-svg {
+  display: flex;
+  flex-direction: column;
+  min-width: 312px;
+  min-height: 340px;
+  display: block;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 312 340' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M0 24C0 10.7452 10.7452 0 24 0H288C301.255 0 312 10.7452 312 24V148C299.85 148 290 157.85 290 170C290 182.15 299.85 192 312 192V316C312 329.255 301.255 340 288 340H24C10.7452 340 0 329.255 0 316V192C12.1503 192 22 182.15 22 170C22 157.85 12.1503 148 0 148V24Z' fill='white'/%3E%3Cline x1='23' y1='169.5' x2='289' y2='169.5' stroke='%23F1F1F1' stroke-dasharray='2 2'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.font-ST3-semi-bold {
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+
+//styleName: Дополнительный текст/ST2 regular;
+.font-ST2-semi-bold {
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  line-height: 16px;
+  letter-spacing: 0em;
+}
+
+//styleName: Secondary Text [mob]/ST1 Regular;
+.font-ST1-regular {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+
+//styleName: Текст/T1 semi-bold;
+.font-T1-semi-bold {
+  font-family: Proxima Nova;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+//styleName: Header [mob]/H2 Semi-bold;
+.font-T1-semi-bold {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: center;
+}
+
+
+.btn {
+  text-transform: unset !important;
+  border-radius: 8px !important;
+}
+
+.btn-brdrds-48px {
+  text-transform: unset !important;
+  border-radius: 48px !important;
+}
+
+.button__w-312_h-52 {
+  text-transform: unset !important;
+  font-weight: 600;
+  width: 312px !important;
+  height: 52px !important;
+  border-radius: 48px !important;
+  //margin: 0 auto !important;
+}
+
+.footer {
+  background-color: #FFFFFF;
+}

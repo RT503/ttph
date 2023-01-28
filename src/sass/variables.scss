@@ -1,0 +1,35 @@
+$body-font-family: 'Proxima Nova', sans-serif;
+$heading-font-family: 'Provima Nova', sans-serif;
+// $font-weights: (
+//     'thin': 300,
+//     'light': 500,
+//     'regular': 600,
+//     'medium': 700,
+//     'bold': 900,
+//     'black': 1100
+// );
+
+$headings: (
+    'h1': (
+        'weight': 700,
+    ),
+    'h2': (
+        'weight': 700,
+    ),
+    'h3': (
+        'weight': 700,
+    ),
+    'h4': (
+        'weight': 700,
+    ),
+    'h5': (
+        'weight': 700,
+    ),
+    'h6': (
+        'weight': 700,
+    )
+);
+
+$material-light: (
+  'background': #f1f1f1
+);
